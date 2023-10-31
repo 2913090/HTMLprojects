@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+body{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background: #869b89;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20% 50px 20%;
+    background: #1d0002;
+    color: #b1c5c9;
+}
+.nav ul{
+    display: flex;
+    list-style: 0;
+}
+.nav ul li{
+    margin:0 20px 0 0;
+}
+.logo{
+    font-size: 32px;
+}
+.promo{
+    padding: 150px 0 0 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#1d0002,#423c63);
+    color: #b1c5c9;
+}
