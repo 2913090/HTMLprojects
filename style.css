@@ -30,3 +30,42 @@ body{
     background: linear-gradient(#1d0002,#423c63);
     color: #b1c5c9;
 }
+.products{
+    padding:10px 20%;
+}
+.products_header{
+    text-align: center;
+}
+.products_body{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    height: 350px;
+    border: 1px solid #423c63;
+}
+.card_header{
+    height: 200px;
+}
+.card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.card_body{
+    margin:20px 0;
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    padding:8px 20px;
+    background : #1d0002;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.card_footer{
+    text-align: center;
+}
